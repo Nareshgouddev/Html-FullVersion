@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -149,7 +148,6 @@ display: flex;
 .image{
     margin-left: 100px;
     margin-top: 5px;
-    /* border: 1px solid white; */
     margin-right: 20px;
     border-radius: 10px;
 }
@@ -178,6 +176,69 @@ display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin:15px;
 }
+.first-back{
+    background-image: url("https://i.pinimg.com/736x/b2/92/9a/b2929a88a9bf9e57b0da912de30a21fe.jpg");
+    min-height: 100px;
+}
+.overlay {
+    text-shadow:0 0px 10px black;
+    font-family: "Orbitron";
+    text-align: center;
+    font-size: 20px;
+}
+.first-back1 {
+    background-image: url("https://i.pinimg.com/736x/be/65/a0/be65a091f831c244394a748464d2a53b.jpg");
+    min-height: 100px;
+}
+.overlay1 {
+    color: #e9d0d0;
+    text-shadow: 0 0px 3px white;
+    font-family: "Orbitron";
+    text-align: center;
+    font-size: 20px;
+}
+.first-back2 {
+    background-image: url("https://i.pinimg.com/736x/a5/0b/6a/a50b6aaca675d5d97ff83620ebc4953c.jpg");
+    min-height: 100px;
+}
+
+.overlay2 {
+    color: #fff;
+    text-shadow: 0 0px 10px white;
+    font-family: "Orbitron";
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .morquee2{
         color: rgb(152, 150, 150);
             margin: 10px 0px;
@@ -190,13 +251,25 @@ display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 15px;
 }
-
+#Background{
+    color: #fff;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+}
 #Links{
     color: #fff;
         font-size: 30px;
         text-align: center;
         margin: 20px;
 }
+#Lists {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
 .container {
     display: flex;
     gap: 80px;
@@ -222,12 +295,12 @@ display: flex;
     color: #00b7ff;
 }
 
-h3 {
+/* h3 {
     font-size: 14px;
     letter-spacing: 2px;
     color: #9c9c9c;
     margin-bottom: 25px;
-}
+} */
 
 hr {
     border: none;
@@ -254,12 +327,12 @@ blockquote {
     width: 50%;
 }
 
-h3 {
+/* h3 {
     font-size: 14px;
     color: #9c9c9c;
     letter-spacing: 2px;
     margin-bottom: 20px;
-}
+} */
 .number-list,
 .description-list {
     margin-top: 10px;
@@ -423,6 +496,11 @@ caption {
     width: 150px;
     margin-top: 10px;
     margin-left: 45px;
+}
+
+.end{
+    color:WHITE;
+    text-shadow: 0px 2px 2px GREEN;
 }
 
 
