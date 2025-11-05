@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+span{
+    color: orange;
+}
+.head-elements{
+    display: flex;
+    color: rgb(171, 167, 167);
+    list-style-type: none;
+    padding: 20px;
+    font-family:"Fjalla One",
+        sans-serif ;
+}
+.Naresh{
+    margin-right:220px ;
+}
+.Front{
+    margin-right: 60em;
+}
+.Frontend{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 140px;
+    color:rgb(171, 167, 167) ;
+    margin-left:80px;
+    transition: color 0.3s ease;
+}
+
+.Frontend.scrolled{
+    color: white;
+}
+.html{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 250px;
+    color: rgb(171, 167, 167);
+    margin-left: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px;
+}
+
+.navitems{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+    color: grey;
+    font-family: "Fjalla One", sans-serif;
+    margin-top: 0;
+}
+
+.navitems li{
+    padding: 10px 20px;
+    background: linear-gradient(135deg, rgba(139, 233, 253, 0.1), rgba(80, 250, 123, 0.05));
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navitems li:hover{
+    background: linear-gradient(135deg, rgba(139, 233, 253, 0.2), rgba(80, 250, 123, 0.1));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 233, 253, 0.3)
+}
+#Headings{
+    color:#fff;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+}
+.head-card{
+    display: flex;
+    margin-left: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px
+}
+.headofcards{
+    display: flex;
+}
+.hcard{
+    color: white;
+    width: 120px;
+}
+
+#Youtube{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.youTube-card{
+    display: flex;
+        margin-left: 100px;
+        margin-right: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+}
+iframe{
+    border-radius: 10px;
+}
+
+.youtube-matter{
+    color:rgb(152, 150, 150);
+    font-size: 20px;
+    font-family: "Fjalla One", sans-serif;
+    margin-left: 20px;
+    
+}
+#Map{
+    color: #fff;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+}
+.maps-cards{
+display: flex;
+    margin-left: 100px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.map-matter{
+        color: rgb(152, 150, 150);
+            font-size: 20px;
+            font-family: "Fjalla One", sans-serif;
+            margin-left: 20px;
+}
+#Image{
+    color: #fff;
+    font-size: 30px;
+        text-align: center;
+        margin: 20px;
+}
+.image{
+    margin-left: 100px;
+    margin-top: 5px;
+    /* border: 1px solid white; */
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#Morquee{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.morquee{
+    color: rgb(152, 150, 150);
+    margin: 10px 0px;
+    font-size:100px ;
+    font-family: "Fjalla One", sans-serif;
+}
+.morquee-right{
+    color:rgb(152, 150, 150);
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+.morquee-right p{
+    color: rgb(152, 150, 150);
+    font-size:20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:15px;
+}
+.morquee2{
+        color: rgb(152, 150, 150);
+            margin: 10px 0px;
+            font-size: 100px;
+            font-family: "Fjalla One", sans-serif;
+}
+.morquee-left p {
+    color: rgb(152, 150, 150);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
+#Links{
+    color: #fff;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+}
+.container {
+    display: flex;
+    gap: 80px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.left,
+.right {
+    width: 50%;
+    color: #e6e6e6;
+}
+
+.left a {
+    display: block;
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.left a:hover {
+    color: #00b7ff;
+}
+
+h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #9c9c9c;
+    margin-bottom: 25px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #3d3d3d;
+    margin: 10px 0;
+}
+
+blockquote {
+    border-left: 3px solid gray;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.layout {
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    gap: 80px;
+    color: #9c9c9c;
+}
+
+.section-lists,
+.section-table {
+    width: 50%;
+}
+
+h3 {
+    font-size: 14px;
+    color: #9c9c9c;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.number-list,
+.description-list {
+    margin-top: 10px;
+}
+
+.bullet-list,.bullet-list2,.bullet-list3,.bullet-list4{
+    margin-top: 10px;
+    margin-right: 60px;
+}
+.number-list{
+    margin-right: 60px;
+}
+
+.description-list dt {
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #3d3d3d;
+    margin: 15px 0;
+}
+.basic-table,
+.border-table {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.basic-table th,
+.basic-table td,
+.border-table th,
+.border-table td {
+    padding: 10px;
+}
+
+.border-table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.border-table th,
+.border-table td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    gap: 50px;
+}
+.table-shadow{
+    display: flex;
+    justify-content: center;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+caption {
+    caption-side: top;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.table-one th.th-one,
+.table-one td.td-one {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+}
+.table-two th.th-two,
+.table-two td.td-two {
+    border: 1px solid #fff;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+#Forms{
+    color: #fff;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+}
+
+
+
+
+.form-wrapper {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.login-form,
+.register-form {
+    background-color: #000;
+    padding: 30px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.form-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.login-form p{
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.input-field::placeholder {
+    color:grey;
+}
+
+.submit-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 95px;
+    margin-left: 80px;
+}
+
+.submit-btn:hover {
+    background-color: orange;
+    color: #000;
+}
+
+
+.google-sign {
+    color: rgb(48, 13, 156);
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
