@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: #e6e6e6;
+}
 
 body{
     background-color: black;
@@ -60,16 +64,14 @@ span{
 
 .navitems li{
     padding: 10px 20px;
-    background: linear-gradient(135deg, rgba(139, 233, 253, 0.1), rgba(80, 250, 123, 0.05));
+    /* background: linear-gradient(135deg, rgba(139, 233, 253, 0.1), rgba(80, 250, 123, 0.05)); */
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .navitems li:hover{
-    background: linear-gradient(135deg, rgba(139, 233, 253, 0.2), rgba(80, 250, 123, 0.1));
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(139, 233, 253, 0.3)
+    text-decoration: underline;
+    color: orange;
 }
 #Headings{
     color: orangered;
@@ -495,7 +497,13 @@ caption {
     color:WHITE;
     text-shadow: 0px 2px 2px GREEN;
 }
-
+.end{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
 
 
 
